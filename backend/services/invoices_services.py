@@ -9,7 +9,7 @@ from datetime import datetime
 
 import schemas.invoices_schemas as schemas
 import models.invoices_models as models
-import workers.sent_email_worker as mailer
+import utils.sent_email as mailer
 
 from fastapi_pagination import paginate
 

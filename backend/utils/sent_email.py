@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuração
-password_email = 'Kanastracase123_'
 server = smtplib.SMTP(os.getenv('MAILER_HOST'), os.getenv('MAILER_PORT'))
 
 
